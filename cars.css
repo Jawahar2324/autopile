@@ -1,0 +1,330 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section-1{
+    background-image: url("https://static.wixstatic.com/media/c837a6_1de0dc08580146f1be58deaa669fa8d3~mv2.jpg/v1/fill/w_1899,h_870,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_1de0dc08580146f1be58deaa669fa8d3~mv2.jpg");
+color: white;
+}
+.topnavbar{
+    display: flex;
+    justify-content: space-between;
+ padding: 20px;
+ align-items: center;
+}
+.topnavbar p{
+    margin-left: 20px;
+}
+.topicons{
+    margin: 10px 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.search{
+    border-radius: 8px;
+    width: 220px;
+    height: 25px;
+    background-color: transparent;
+    border:2px solid gray;
+    padding: 10px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.search:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.user{
+    
+    width:25px;
+    height: 25px;
+    border-radius:10px;
+    padding: 10px;
+}
+
+.login{
+    color: white;
+    text-decoration: none;
+}
+
+.login:hover{
+    color: darkgray;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+.auto{
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+}
+/* .auto.p{
+    margin-left: 20px;
+    margin-top: 10px;
+} */
+.logo{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.links{
+    margin-right: 30px;
+}
+.links a{
+    color: white;
+    text-decoration:none;
+    margin-left: 25px;
+}
+a:hover{
+    color:crimson;
+    cursor: pointer;
+}
+.mainheading{
+    padding: 30px;    
+}
+.mainheading h1{
+    text-align: left;
+     font-size: 60px;
+}
+.mainheading h3{
+    font-size: 25px;
+}
+.logo2 p{
+    margin-left: 20px;
+}
+button{
+    border-radius: 25px;
+    color:black;
+    background-color:orangered;
+    width: 130px;
+    height: 55px;
+
+}
+.button1:hover{
+    color:white;
+    background-color: black;
+    border: 2px solid white;
+    cursor:pointer;
+    
+}
+.logo1{
+    display: flex;
+    margin-left: 20px;
+}
+.logo2{
+    display: flex;
+    align-items: center;
+     margin: 20px;
+}
+.vl{
+    border:1px solid red;
+    height: 50px;
+    margin-left: 20px;
+}
+/* .section-1 done */
+.shoppingtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.shoppingtop h3{
+    padding: 30px;
+}
+.shopbutton{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    /* padding: 20px; */
+}
+.shopbutton:hover{
+    background-color: orangered;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+.mini-heading{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.shop{
+    display: flex;
+ justify-content: space-around;
+ background-color: black;
+ color: white;
+}
+.Category-images{
+    height: 300px;
+    overflow: hidden;
+    width: 300px;
+
+}
+.Category-images img{
+    transition:transform 2s;
+    height: 300px;
+    width: 300px;
+}
+.Category-images img:hover{
+    transform:scale(1.3);
+    cursor: pointer;
+}
+/* .section-2 done */
+.section3{
+    background-color: black;
+    color:white;
+    padding: 30px;
+}
+.mainheading2{
+    background-color:black;
+   padding: 30px;
+    color: white;
+}
+.mainheading2 h1{
+    text-align: left;
+    font-size: 60px;
+}
+.mainheading2 .button1{
+    margin-top: 30px ;
+}
+.one h4{
+    font-size: 25px;
+} 
+table,td{
+    border: 1px solid white ;
+    width: 750px;
+    height:150px;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 15px;
+} 
+.small{
+    width: 200px;
+    height: 300px;
+}
+.button2{
+    width: 193px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 2px;
+}
+.button2:hover{
+    color: darkgrey;
+    cursor: pointer;
+}
+.Join{
+  padding: 30px;
+    color: white;
+    background-color: black;
+}
+.Join h1{
+    text-align: left;
+    font-size: 60px;
+}
+.line{
+    width: 40%;
+  margin-left: 10px;
+} 
+/* .section3 done */
+.section-4{
+    padding: 10px;
+    background-color: black;
+    color: white;
+ }
+.section-4 h2{
+    padding-left: 35px;
+}
+.brands-images{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+}
+.brands-images li{
+    border: 1px solid white;
+    padding: 40px;
+}
+.footer{
+    padding: 30px;
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.autopile{
+    display: flex;
+    justify-content:space-around; 
+   
+}
+.footer-2line{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.footer-3line{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer-3line p{
+     display: flex;
+    justify-content: center;
+}
+.footer-3line h5{
+    text-align: center;
+}
+
+h3,h4{
+    font-size: 25px;
+}
+hr{
+    margin: 0px;
+}
+.onimage{
+    position: relative;
+  text-align: left;
+  color:red;
+}
+.best{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    color: black;
+    border: 5px solid red;
+}
+.onimage p{
+    color: white;
+}
+.category-names{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
